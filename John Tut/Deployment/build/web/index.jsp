@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello From index</h1>
+        <h1>Hello From index.jsp</h1>
     </body>
 </html>

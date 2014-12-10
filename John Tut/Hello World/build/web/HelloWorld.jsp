@@ -18,7 +18,7 @@
             String text = today.toString();
         %>
         <%out.println(text+"baalchaal");%>
-                
+             aklsdgalsbg   
 
     </body>
 </html>
