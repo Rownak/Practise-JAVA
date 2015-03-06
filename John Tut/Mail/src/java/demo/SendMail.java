@@ -25,9 +25,9 @@ public class SendMail {
 
     public static void main(String[] args) {
         
-        String username = "afrownak@gmail.com";
-        String userpass = "saratasnim";
-        String toAddress = "ratul@student.sust.edu";
+        String username = "sajjadrownak@gmail.com";
+        String userpass = "201033101826";
+        String toAddress = "rownak.sust@gmail.com";
         
         Properties props = new Properties();
         props.setProperty("mail.host", "smtp.gmail.com");
@@ -46,8 +46,8 @@ public class SendMail {
         
         Message msg = new MimeMessage(session);
         try {
-            msg.setSubject("Feeling Up and Down");
-            msg.setText("Mammmmaaa saradin dhoira exception khaite khaite email pathano Shikhsi , khuuuuuub moja lagtese tai tore mail pathalam");
+            msg.setSubject("Validation");
+            msg.setText("http://192.168.2.110:8084/TouristFriend_BackEnd/");
 
             msg.setRecipient(Message.RecipientType.TO, new InternetAddress(toAddress));
 
